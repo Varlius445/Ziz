@@ -57,3 +57,53 @@ export default function GadgetStore() {
     </div>
   );
 }
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f4f0ff;
+  color: #333;
+}
+.header {
+  background: purple;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.header a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+.section {
+  padding: 40px 20px;
+  text-align: center;
+}
+.grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+  width: 200px;
+}
+button {
+  background: purple;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.footer {
+  background: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
